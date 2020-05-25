@@ -1,0 +1,178 @@
+@charset "utf-8";
+#envoltorio{
+	width: 1000px;
+	height: 1136px;
+	background-color: white;
+}
+#envoltorio header{
+	background-image: url("../imágenes-assets/menuu.jpg");
+    width: 1366px;
+	height: 70px;
+	top: 0px;
+	position:sticky;
+	z-index: 3;
+}
+/*Aqui va logo*/
+#envoltorio header nav {
+	width: 1366px;
+	position: relative;
+}
+#envoltorio header nav a#botonreserva{
+	position: relative;
+	background-color: #FB9B2D;
+	padding: 12px 35px;
+	top: -156px;
+	left: 1100px;
+}
+#envoltorio header nav ul {
+  list-style-type: none;
+  position: relative;
+  top: -90px;
+  text-align:center;
+}
+#envoltorio header nav ul li {
+    display: inline-block;
+	padding: 25px 35px;	
+	
+}
+a{
+	color:black;
+	text-decoration: none;
+	font-family: "Dream Orphans";
+	font-size: 22px;
+}	
+#envoltorio nav ul li:hover {
+background:#FB9B2D;	
+}
+a:hover {
+	color: white;
+}
+/*FINAL HEADER*/		
+/*INICIO CONTENIDO*/
+#banner{
+	width: 1366px;
+	height: 241px;
+	position: relative;
+	top: -16px;
+	right:0px;
+}
+ #naranja{
+	width: 1366px;
+	height: 269px;
+	 top: 16px;
+	position: relative;
+	background-image: url("../imágenes-assets/naranja.jpg")
+}
+#perritu{
+	position: relative;
+	right: -1000px;
+	top: -06px;
+}
+#mision{
+	font-size: 48px;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	line-height: 1.16;
+	text-align: left;
+	position: absolute;
+	left: 105px;
+	top: 35px;
+	z-index: 2;
+	letter-spacing: 03px;
+	font-weight: lighter;
+}
+#mision span{
+	font-weight: bold;
+}
+#parrafo1{
+  font-size: 32px;
+  font-family: "Oswald";
+  color: white;
+  line-height: 1.125;
+  text-align: left;
+  position: absolute;
+  left: 600px;
+  top: 42px;
+  width: 383px;
+  height: 140px;
+  letter-spacing: 02px;
+}
+/*conte*/
+form {
+	position: absolute;
+	left: 100px;
+	top: 200px;
+	width: 450px;
+	margin: auto;
+	background-color:#FB9B2D;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 220px;
+	border-radius: 20px;
+}
+h2 {
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+input, textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 18px;
+	border: none;
+}
+textarea {
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+#boton {
+	font-family: "Bodoni Bk BT";
+	font-size: 25px;
+	padding: 20px;
+}
+#boton:hover {
+	color: #801815;
+}
+#texto{
+	position: absolute;
+	width: 260px;
+	text-align: justify;
+	margin-left: 90px;
+	margin-top: 260px;
+	font-size: 20px;
+	font-family: "Bodoni Bk BT", "Calibri Light";
+}
+#anuncio {
+	top: -1300px;
+	position: relative;
+	left: 750px;
+}
+#maraton{
+	position: relative;
+	left: 800px;
+	top: 68px;
+}	
+#parrafo2{
+	text-align: justify;
+	position: relative;
+	width: 540px;
+	top: 420px;
+	left: 70px;
+	}
+/*INICIA FOOTER*/
+.footer{
+	width: 1366px;
+	height: 190px;
+	top: 800px;
+	position: relative;
+	background-color: #FB9B2D;
+}
+#foot{
+	position: relative;
+	top: 50px;
+	left: 20px;
+}
