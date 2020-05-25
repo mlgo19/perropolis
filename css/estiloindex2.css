@@ -1,0 +1,235 @@
+@charset "utf-8";
+/*YAAAA*/
+#envoltorio{
+	width: 1366px;
+	height: 768px;
+	background-color: white;
+}
+#envoltorio header{
+	background-image: url("../imágenes-assets/menuu.jpg");
+    width: 1366px;
+	height: 70px;
+	top: 0px;
+	position:sticky;
+	z-index: 3;
+}
+/*Aqui va logo*/
+#envoltorio header  figure img{
+position:relative;
+  left: 70px;
+  top: 0px;
+  padding: 0px;	
+}
+#envoltorio header nav {
+	width: 1366px;
+	position: relative;
+}
+#envoltorio header nav a#botonreserva{
+	position: relative;
+	background-color: #FB9B2D;
+	padding: 15px 35px;
+	top: -160px;
+	left: 1100px;
+}
+#envoltorio header nav ul {
+  list-style-type: none;
+  position: relative;
+  top: -90px;
+  text-align:center;
+}
+#envoltorio header nav ul li {
+    display: inline-block;
+	padding: 25px 35px;	
+	
+}
+a{
+	color:black;
+	text-decoration: none;
+	font-family: "Dream Orphans";
+	font-size: 22px;
+}	
+#envoltorio nav ul li:hover {
+background:#FB9B2D;	
+}
+a:hover {
+	color: white;
+}
+/*FINAL HEADER*/		
+/*INICIO CONTENIDO*/
+#banner{
+	width: 1366px;
+	height: 241px;
+	position: relative;
+	top: -16px;
+	right: 40px;
+}
+ #naranja{
+	width: 1366px;
+	height: 269px;
+	 top: -16px;
+	position: relative;
+	background-image: url("../imágenes-assets/naranja.jpg")
+}
+#perritu{
+	position: relative;
+	right: -1000px;
+}
+#mision{
+	font-size: 48px;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	line-height: 1.16;
+	text-align: left;
+	position: absolute;
+	left: 105px;
+	top: 14px;
+	z-index: 2;
+	letter-spacing: 03px;
+	font-weight: lighter;
+}
+#mision span{
+	font-weight: bold;
+}
+#parrafo1{
+  font-size: 32px;
+  font-family: "Oswald";
+  color: white;
+  line-height: 1.125;
+  text-align: left;
+  position: absolute;
+  left: 750px;
+  top: 50px;
+  width: 383px;
+  height: 140px;
+  letter-spacing: 02px;
+}
+
+#envoltorio #titulo {
+    font-family: "Oswald Light";
+    font-size: 24px;
+    /* [disabled]text-align: center; */
+    margin-left: 601px;
+}
+#envoltorio section p {
+    margin-left: 442px;
+}
+#envoltorio #naranja #parrafo1 {
+    margin-left: -148px;
+}
+#envoltorio section p {
+    margin-top: 22px;
+
+
+}
+#envoltorio #naranja #mision {
+    margin-top: 40px;
+}
+#envoltorio .footer {
+    margin-top: -794px;
+}
+header #menubar ul {
+    color: #000000;
+}
+#menubar ul li {
+    color: #000000;
+}
+#envoltorio header #menubar {
+    color: #000000;
+}
+
+#envoltorio section p {
+    padding-left: 73px;
+    text-align: left;
+
+}
+#envoltorio #naranja img {
+    margin-left: 1227px;
+    margin-top: 27px;
+}
+.carousel-inner .carousel-item.active .carousel-caption {
+    color: #FFFFFF;
+    font-family: "Oswald Light", Oswald, "Oswald ExtraLight", "Oswald Medium", "Oswald SemiBold", "Oswald Stencil";
+    font-style: normal;
+    font-weight: bold;
+    font-size: large;
+    text-align: right;
+}
+#envoltorio #naranja img {
+    margin-left: 1096px;
+    margin-top: 7px;
+}
+#envoltorio section p {
+}
+#envoltorio section {
+    color: #000000;
+    font-family: "Oswald Light", Oswald, "Oswald ExtraLight", "Oswald Medium", "Oswald SemiBold", "Oswald Stencil";
+    font-style: normal;
+    font-weight: normal;
+    font-size: large;
+    text-align: center;
+}
+#envoltorio section h1 {
+}
+#envoltorio section h2 {
+    color: #000000;
+    font-family: "Oswald Light", Oswald, "Oswald ExtraLight", "Oswald Medium", "Oswald SemiBold", "Oswald Stencil";
+    font-weight: bold;
+}
+#envoltorio section p {
+
+
+}
+
+#envoltorio section p {
+    padding-left: 0px;
+}
+
+#envoltorio #naranja img {
+    margin-left: 1088px;
+    /* [disabled]margin-bottom: 17px; */
+    margin-top: 20px;
+}
+#envoltorio div h1 {
+    color: #000000;
+    font-family: "Oswald Light", Oswald, "Oswald ExtraLight", "Oswald Medium", "Oswald SemiBold", "Oswald Stencil";
+    font-style: normal;
+    font-weight: bold;
+}
+#envoltorio div p {
+    color: #000000;
+    font-family: "Oswald Light", Oswald, "Oswald ExtraLight", "Oswald Medium", "Oswald SemiBold", "Oswald Stencil";
+    font-size: x-large;
+    margin-left: 261px;
+}
+#envoltorio div h1 {
+    margin-left: -7px;
+}
+#envoltorio section {
+    color: #000000;
+    font-family: "Oswald Light", Oswald, "Oswald ExtraLight", "Oswald Medium", "Oswald SemiBold", "Oswald Stencil";
+	padding: 5px 5px 15px 5px ;
+}
+#envoltorio section a {
+    color: #000000;
+    font-family: "Oswald Light", Oswald, "Oswald ExtraLight", "Oswald Medium", "Oswald SemiBold", "Oswald Stencil";
+    font-weight: bolder;
+    font-size: xx-large;
+}
+#envoltorio section p {
+    margin-left: 478px;
+}
+
+
+/*INICIA FOOTER*/
+.footer{
+	width: 1366px;
+	height: 140px;
+	top: 800px;
+	position: relative;
+	background-color:#FB9B2D;
+}
+#foot {
+	position: relative;
+    top: 20px;
+	left: 25px;
+}
