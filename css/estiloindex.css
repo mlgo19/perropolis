@@ -1,8 +1,7 @@
 @charset "utf-8";
-/*YAAAA*/
 #envoltorio{
 	width: 1366px;
-	height: 1536px;
+	height: 768px;
 	background-color: white;
 }
 #envoltorio header{
@@ -105,16 +104,51 @@ a:hover {
 }
 /*INICIA CONTENIDO*/
 h1{
-	text-align: center;
+	text-align: left;
 	font-family: "Dream Orphans";
-	padding: 15px 0px 30px 0px
+	padding: 45px 0px 35px 250px
+}
+#qsomos{
+	position: relative;
+	left: -50px;
+}
+#parrafo2{
+	text-align: justify;
+	position: relative;
+	width: 540px;
+	top: -640px;
+	left: 110px;
+}
+#anuncio {
+	top: -50px;
+	position: relative;
+	left: 50px;
+}
+#emple{
+	position: relative;
+	top: -340px;
+	left: 30px;
+}	
+
+#dogs{
+	position: relative;top: 1660px; right: 265px;
+}
+#maraton{
+	position: relative;
+	left: 800px;
+	top: -1350px;
 }
 
 /*INICIA FOOTER*/
 .footer{
 	width: 1366px;
-	height: 110px;
-	bottom: -815px;
+	height: 190px;
+	top: -380px;
 	position: relative;
 	background-color: #FB9B2D;
+}
+#foot{
+	position: relative;
+	top: 50px;
+	left: 20px;
 }
